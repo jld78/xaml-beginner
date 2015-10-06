@@ -26,5 +26,15 @@ namespace RestaurantManager.UniversalWindows
         {
             this.InitializeComponent();
         }
+
+        private void GoHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.GoBack();
+        }
+
+        private void AppBar_Closed(object sender, object e)
+        {
+
+        }
     }
 }
