@@ -29,12 +29,13 @@ namespace RestaurantManager.UniversalWindows
 
         private void GoHome_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.GoBack();
+            this.Frame.Navigate(typeof(MainPage));
         }
 
         private void AppBar_Closed(object sender, object e)
         {
 
         }
+
     }
 }
